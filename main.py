@@ -34,10 +34,10 @@ async def on_message(message: Message) -> None:
 
     print(f'[{channel}] {username}: "{user_message}"')
 
-    if user_message.startswith('?dcsstatus'):
+    if user_message.startswith('?(place your command name here)'):
         # Define the server IP and port
-        server_ip = '81.130.215.226'  # Server IP address
-        server_port = 10308  #DCS server port
+        server_ip = '(server IP Address goes here)'  # Server IP address
+        server_port = (Server port goes here)  #DCS server port
 
         if ping(server_ip, server_port):
             await message.channel.send("The White Martian DCS Server is online.")
