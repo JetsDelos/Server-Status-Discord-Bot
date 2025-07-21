@@ -6,3 +6,6 @@ Multiple commands can be added by copying line 37 through 45 and changing the pe
 
 **KNOWN ISSUES**
 Minecraft Bedrock Servers do not respond to a ping. 
+
+
+**NEW VERSION SOON**
